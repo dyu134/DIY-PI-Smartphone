@@ -9519,7 +9519,7 @@
 		)
 		(uuid "fbf5b0f5-8607-46d9-b1ea-0db9b3da625c")
 	)
-	(hierarchical_label "USB_SS_SCL"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 195.58 110.49 0)
 		(effects
@@ -9540,6 +9540,28 @@
 			(justify left)
 		)
 		(uuid "2f936529-d02e-43e5-ab30-265bef3c9a62")
+	)
+	(hierarchical_label "USB_D-"
+		(shape input)
+		(at 138.43 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4935d082-3ef9-494d-8517-68927ecc8f40")
+	)
+	(hierarchical_label "USB_D+"
+		(shape input)
+		(at 138.43 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f4d3d09-74fe-4590-896b-295f19177585")
 	)
 	(hierarchical_label "CC1"
 		(shape input)
@@ -9563,7 +9585,7 @@
 		)
 		(uuid "d1db6b12-b43d-4a26-a3b4-bf61ee8a0a6c")
 	)
-	(hierarchical_label "USB_SS_SDA"
+	(hierarchical_label "SDA"
 		(shape input)
 		(at 195.58 107.95 0)
 		(effects
@@ -9582,7 +9604,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f063c5a-dfc5-4cc5-8167-a0821200dfa9")
 		(property "Reference" "#PWR06"
 			(at 81.28 74.93 0)
@@ -9593,12 +9614,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 81.28 66.04 0)
+		(property "Value" "VBUS_USB"
+			(at 76.708 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10225,10 +10247,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "674a4009-0855-46f5-a80b-75a83ec0e5f2")
 		(property "Reference" "U4"
-			(at 173.99 66.04 0)
+			(at 187.706 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10257,7 @@
 			)
 		)
 		(property "Value" "HD3SS3220"
-			(at 173.99 68.58 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
