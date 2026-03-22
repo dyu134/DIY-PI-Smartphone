@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eccaf324-454b-4c5c-be75-e84b3b5359fc")
+	(paper "A4")
+	(title_block
+		(title "DIY Pi Smartphone")
+		(date "2026-03-21")
+		(rev "1")
+		(company "yotsuki134")
+	)
+	(lib_symbols)
+	(sheet
+		(at 38.1 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "304f09c1-816b-49ff-b28f-7c2141cada4d")
+		(property "Sheetname" "Main Processor"
+			(at 38.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processor_CM5.kicad_sch"
+			(at 38.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DIY Pi Smartphone"
+				(path "/eccaf324-454b-4c5c-be75-e84b3b5359fc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac826a6d-38b8-40a6-9371-44fff3e8f271")
+		(property "Sheetname" "Power"
+			(at 114.3 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 114.3 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DIY Pi Smartphone"
+				(path "/eccaf324-454b-4c5c-be75-e84b3b5359fc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4b4d5e0-4363-4a95-b4bb-546e0b6c6e30")
+		(property "Sheetname" "USB"
+			(at 190.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 190.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DIY Pi Smartphone"
+				(path "/eccaf324-454b-4c5c-be75-e84b3b5359fc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

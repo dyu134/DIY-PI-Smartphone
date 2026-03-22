@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1669e1b3-530d-48f4-8edb-72eb1a0c926e")
+	(paper "A4")
+	(title_block
+		(title "DIY Pi Smartphone")
+		(date "2026-03-21")
+		(rev "1")
+		(company "yotsuki134")
+	)
+	(lib_symbols)
+)
