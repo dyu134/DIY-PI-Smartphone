@@ -9520,7 +9520,7 @@
 		(uuid "fbf5b0f5-8607-46d9-b1ea-0db9b3da625c")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 195.58 110.49 0)
 		(effects
 			(font
@@ -9529,6 +9529,17 @@
 			(justify left)
 		)
 		(uuid "1715e70e-3e95-4e28-9d4c-9b5b74c945c0")
+	)
+	(hierarchical_label "CM5_USB2-"
+		(shape bidirectional)
+		(at 228.6 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28addbe0-73d0-44f3-a022-c779c57d01f8")
 	)
 	(hierarchical_label "CC2"
 		(shape input)
@@ -9542,7 +9553,7 @@
 		(uuid "2f936529-d02e-43e5-ab30-265bef3c9a62")
 	)
 	(hierarchical_label "USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 138.43 142.24 0)
 		(effects
 			(font
@@ -9552,8 +9563,19 @@
 		)
 		(uuid "4935d082-3ef9-494d-8517-68927ecc8f40")
 	)
+	(hierarchical_label "CM5_USB2+"
+		(shape bidirectional)
+		(at 228.6 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "683dc731-7283-4b4b-ba08-92411709ba37")
+	)
 	(hierarchical_label "USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 138.43 137.16 0)
 		(effects
 			(font
@@ -9586,7 +9608,7 @@
 		(uuid "d1db6b12-b43d-4a26-a3b4-bf61ee8a0a6c")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 195.58 107.95 0)
 		(effects
 			(font
